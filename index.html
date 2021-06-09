@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>FCC: Personal Portfolio</title>
@@ -19,7 +26,7 @@
           <a href="#projects" class="nav-link">Projects</a>
         </li>
         <li>
-          <a href="#" class="nav-link">Contact</a>
+          <a href="#contact" class="nav-link">Contact</a>
         </li>
       </ul>
     </nav>
@@ -29,6 +36,7 @@
         <h2>I'm a freelance web developer living in Yokohama, Japan</h2>
       </div>
     </div>
+
     <div id="projects">
       <div id="header-wrapper">
         <h3>My projects</h3>
@@ -68,7 +76,51 @@
           </a>
         </div>
       </div>
+      <br />
+      <br />
+      <div id="button-wrapper">
+        <a
+          id="profile-link"
+          href="https://github.com/AndrewHuntington"
+          target="_blank"
+        >
+          <div id="button">
+            <p>See more <i class="fas fa-chevron-right"></i></p>
+          </div>
+        </a>
+      </div>
     </div>
+
+    <div id="contact">
+      <div id="contact-msg">
+        <h3>Want to know more?</h3>
+        <p>Contact me...</p>
+
+        <div id="contact-list">
+          <ul>
+            <li>
+              <a href="#" class="contact-link first-cl"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </li>
+            <li>
+              <a href="#" class="contact-link"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="#" class="contact-link"
+                ><i class="fas fa-paper-plane"></i> Email</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <p>&copy; 2021 Andrew Huntington</p>
+    </footer>
   </body>
   <!-- FCC Test Suite -->
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
