@@ -1,6 +1,6 @@
 # freeCodeCamp Personal Portfolio Page
 
-### View on [CodePen]()
+### View on [CodePen](https://codepen.io/strugglebunny/full/qBryoeQ)
 
 A personal portfolio page built for [freeCodeCamp](https://www.freecodecamp.com)'s Responsive Web Design Certification.
 
